@@ -21,5 +21,7 @@ A simple command-line calculator built in Java. This project performs basic arit
 ▶️ How to Run
 
 ##Compile the Java file:
+
 javac Calculator.java
+
 java Calculator
