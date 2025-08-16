@@ -1,3 +1,4 @@
+Tas-1:
 Calculator in Java
 
 Project Description
@@ -22,7 +23,8 @@ How to Run
    javac Calculator.java
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Task-2: Library Management System
+Task-2: 
+Library Management System
 - **Description**: A Java-based Library Management System with a GUI to manage books, authors, and availability.
 - **File**: `LibraryManagementSystemGUI.java`
 - **Technologies Used**: Java (Swing/AWT), OOP
