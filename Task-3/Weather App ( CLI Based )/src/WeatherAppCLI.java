@@ -7,7 +7,7 @@ import java.util.Scanner;
 import org.json.JSONObject;
 
 public class WeatherAppCLI {
-    private static final String API_KEY = "API KEY FROM OpenWeatherMap "; // OpenWeatherMap API key
+    private static final String API_KEY = "API KEY FROM OpenWeatherMap "; // OpenWeatherMap API key.
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
