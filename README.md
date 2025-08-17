@@ -1,4 +1,4 @@
-Tas-1:
+                                                                             TasK-1:
 Calculator in Java
 
 Project Description
@@ -21,9 +21,8 @@ How to Run
 2. Compile the Java file:
    CMD(TERMINAL)
    javac Calculator.java
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-Task-2: 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                                    Task-2: 
 Library Management System
 - **Description**: A Java-based Library Management System with a GUI to manage books, authors, and availability.
 - **File**: `LibraryManagementSystemGUI.java`
@@ -35,3 +34,48 @@ How to Run
 2. Compile the code:
    CMD(Terminal) 
    javac LibraryManagementSystemGUI.java
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                                       Task-3:
+Weather App (CLI-Based in Java)
+
+This is a **Command-Line Interface (CLI)** based Weather Application built in **Java**.  
+It fetches real-time weather data using the **OpenWeatherMap API** and displays:  
+-----------------------------------------------------------------------
+Temperature & Feels Like  
+  Humidity  
+  Weather Condition  
+  Wind Speed  
+  Pressure  
+  Country Code  
+  Coordinates (Latitude & Longitude)  
+------------------------------------------------------------------------
+JAR Dependencies
+------------------------------------------------------------------------    
+This project uses the **org.json** library to parse API responses.  
+
+### Adding the JAR
+1. Download `json-20210307.jar` (or latest) from:  
+   [https://repo1.maven.org/maven2/org/json/json/](https://repo1.maven.org/maven2/org/json/json/)  
+
+2. Place the JAR file inside a `lib/` folder in your project directory.  
+
+3. When compiling & running, include the JAR in your classpath:  
+------------------------------------------------------------------------
+   **Compile Like this 
+   1. javac -cp .;lib/json-20210307.jar WeatherAppCLI.java
+   2. java -cp .;lib/json-20210307.jar WeatherAppCLI
+
+#######################################################################
+--------------------------OUTPUT LOOKS LIKE THIS-----------------------
+=== Weather Report ===
+City: Mumbai
+Temperature: 30.5 °C
+Feels Like: 33.2 °C
+Humidity: 70%
+Condition: clear sky
+Wind Speed: 2.5 m/s
+Pressure: 1012 hPa
+Country: IN
+Coordinates: [lat: 19.07, lon: 72.87]
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
